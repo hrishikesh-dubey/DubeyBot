@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "greetings",
+        "what's up",
+        "how's it going"
+      ],
+      "responses": [
+        "Hello!",
+        "Hey!",
+        "What can I do for you?",
+        "Good day to you too!",
+        "Ask me anything."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "sayonara",
+        "see ya",
+        "later",
+        "I'm leaving",
+        "ciao"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you later, alligator!",
+        "Sad to see you go :(",
+        "Take care.",
+        "Alvida"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what do i call you",
+        "what's your name",
+        "what do you go by",
+        "do you have a name",
+        "name",
+        "who are you",
+        "can you tell me your name"
+      ],
+      "responses": [
+        "I'm Dubeybot",
+        "Call me Dubeybot!",
+        "Name's bot, Dubeybot.",
+        "I'm Dubeybot, a chatbot!"
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "who created you",
+        "who is your maker",
+        "who is your father",
+        "creator information"
+      ],
+      "responses": ["I was created by Hrishikesh Dubey, a CSE undergrad."]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "tell me a joke",
+        "say something funny",
+        "make me laugh",
+        "good day",
+        "greetings",
+        "what's up",
+        "how's it going"
+      ],
+      "responses": [
+        "Knock! Knock! Who's there? Mikey. Mikey who? Mikey isn't working, can you let me in?",
+        "A perfectionist walked into a bar...apparently, the bar wasn’t set high enough.",
+        "Did you hear about the crook who stole a calendar? He got twelve months.",
+        "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+        "I recently decided to sell my vacuum cleaner as all it was doing was gathering dust."
+      ]
+    }
+  ]
+}
